@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: hsl(226, 43%, 10%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;   
+}
+
+.timePanel{
+    width: 75%;
+    height: 70vh;
+    display: grid;
+    grid-template: repeat(2,1fr)/repeat(4,1fr);
+    gap: 1em;
+}
+
+.timePanel > *{
+    border-radius: 15px;
+}
+
+.userBox{
+    grid-area: 1/1/3/2;
+    background: hsl(235, 46%, 20%);
+}
+
+.userName{
+    height: 70%;
+    width: 100%;
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 15px;
+    color: hsl(236, 100%, 87%);
+}
+
+.userName > img{
+    width: 100px;
+    height: 100px;
+    margin: 1.5em 0em 2.258em 1.5em;
+}
+
+.userName > h3{
+    font-weight: 200;
+    font-size: 1.2rem;
+    margin: 0em 0em 0.5em 1.41em;
+}
+
+.userName > h1{
+    font-weight: 500;
+    font-size: 3.5rem;
+    margin: 0em 0em 0em 0.483em;
+}
+
+.timeFunction ul{
+    list-style: none;
+    margin: 2.25em 0em;
+    font-weight: 400;
+    color: hsl(236, 100%, 87%);
+    opacity: 0.5;
+    font-size: 1.2rem;
+}
+
+ul > li{
+    margin-bottom: 1.25em;
+}
+
+.time{
+    display: flex;
+    align-items: flex-end;
+}
+
+.work{
+    background-color: hsl(15, 100%, 70%);
+}
+
+.play{
+    background-color: hsl(195, 74%, 62%);
+}
+
+.study{
+    background-color: hsl(348, 100%, 68%);
+}
+
+.exercise{
+    background-color: hsl(145, 58%, 55%);
+}
+
+.social{
+    background-color: hsl(264, 64%, 52%);
+}
+
+.selfCare{
+    background-color: hsl(43, 84%, 65%);
+}
+
+.offset{
+    width: 100%;
+    height:80%;
+    background: hsl(235, 46%, 20%);
+    border-radius: 15px;
+}
